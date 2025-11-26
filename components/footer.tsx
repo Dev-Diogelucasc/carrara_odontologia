@@ -60,7 +60,7 @@ export function Footer() {
               <h3 className="font-sans text-lg font-semibold mb-4">Redes Sociais</h3>
               <div className="flex gap-4">
                 <a
-                  href="https://instagram.com/dra.gabrielycarrara"
+                  href="https://www.instagram.com/dra.gabrielycarrara/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"
@@ -69,7 +69,7 @@ export function Footer() {
                   <Instagram className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://wa.me/5534998982511"
+                  href="https://wa.me/5534999661099"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"
