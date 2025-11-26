@@ -32,7 +32,7 @@ export function Contact() {
     const message = `${greeting}, Dra. Gabriely Carrara!%0A%0A*Nome:* ${formData.name}%0A*Email:* ${formData.email}%0A*Telefone:* ${formData.phone}%0A*Mensagem:* ${formData.message}`
     
     // Abre o WhatsApp com a mensagem preenchida
-    const whatsappUrl = `https://wa.me/5534998982511?text=${message}`
+    const whatsappUrl = `https://wa.me/5534999661099?text=${message}`
     window.open(whatsappUrl, '_blank')
     
     // Limpa o formulário

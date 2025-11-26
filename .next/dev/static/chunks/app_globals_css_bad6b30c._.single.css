@@ -1750,6 +1750,15 @@
     background-color: var(--color-bg);
   }
 
+  .bg-\[\#0f2c2b\]\/95 {
+    background-color: #0f2c2bf2;
+    background-color: lab(15.7905% -11.5509 -2.84008 / .95);
+  }
+
+  .bg-\[\#25d366\] {
+    background-color: #25d366;
+  }
+
   .bg-accent {
     background-color: var(--accent);
   }
@@ -2990,6 +2999,12 @@
       --tw-scale-y: 110%;
       --tw-scale-z: 110%;
       scale: var(--tw-scale-x) var(--tw-scale-y);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:bg-\[\#20b358\]:hover {
+      background-color: #20b358;
     }
   }
 

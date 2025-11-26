@@ -16,7 +16,7 @@ export function WhatsAppFloat() {
     }
 
     const message = `${greeting}, Dra. Gabriely Carrara! Gostaria de agendar uma consulta.`
-    const whatsappUrl = `https://wa.me/5534998982511?text=${encodeURIComponent(message)}`
+    const whatsappUrl = `https://wa.me/5534999661099?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")
   }
 
@@ -25,7 +25,7 @@ export function WhatsAppFloat() {
       onClick={openWhatsApp}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-lg transition-all duration-300 hover:scale-110 group"
+      className="fixed bottom-6 right-6 z-50 bg-[#25d366] hover:bg-[#20b358] text-white rounded-full p-4 shadow-lg transition-all duration-300 hover:scale-110 group"
       aria-label="Fale conosco no WhatsApp"
     >
       <MessageCircle className="w-6 h-6" />
